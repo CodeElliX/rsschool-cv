@@ -12,18 +12,13 @@
 
 ## About Me
 
-Having started my career as a layout designer in a local newspaper with minimum skills, I became profficient in printing design.
-My keen interest in printing technologies led me to working as a Prepress and DTP Engineer in the largest printing house in my city,
-where I continued self-learning, examining the process of creating wine and food labels, magazines and other printed goods.
+I work as a veterinarian and a year ago I decided to make a major career change. My choice was front-end development.
 
-Three years ago I’ve become passionate about retouching. I’ve mastered different retouching techniques,
-learned to work with graphic tablet, become an advanced Photoshop user and found my first job as a retoucher.
+I study on my own, on various platforms, such as freecodecamp, rs-school, learn javascript, etc.
 
-Remote work as a retoucher gives me extra free time, which I spend learning Frontend Development.
-I’m interested in Web Development because this occupation provides endless possibilities for professional growth,
-besides there’s a huge amount of free high quality resources for self-education and a large community of developers.
+I thoroughly studied html, css, native js. I received a certificate for free Shi-Codes courses. Now I’m finishing learning React/Redux.
 
-I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
+I am also currently a participant in a course from rs-schools, which helps me refresh my knowledge, close gaps and structure previously received information.
 
 ---
 
@@ -33,22 +28,33 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 - CSS (Bootstrap, SASS/SCSS, BEM)
 - JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript)
 - Git/GitHub
-- Avocode, Zeplin, Photoshop
+- React/redux
+
 ---
 
 ## Code example:
 
 ```
-function peak(arr) {
+function buyWeapon() {
+    if(currentWeapon < weapons.length -1){
 
-  for (let i = 1; i < arr.length - 1; i++) {
-    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
-    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
-    if (leftSum === rightSum) {
-      return i;
+    if(gold >= 30){
+    gold -= 30;
+    currentWeapon ++;
+    goldText.innerText = gold;
+    let newWeapon = weapons[currentWeapon].name;
+    text.innerText = "You now have a " + newWeapon + ".";
+    text.innerText += " In your inventory you have: " + inventory;
+    inventory.push(newWeapon);
+    }else{
+    text.innerText = "You do not have enough gold to buy a weapon.";
     }
-  }
-  return -1;
+    }else{
+        text.innerText = "You already have the most powerful weapon!";
+        button2.innerText = "Sell weapon for 15 gold";
+    button2.onclick = sellWeapon;
+      }
+
 }
 
 ```
@@ -59,6 +65,7 @@ function peak(arr) {
 - [Weather-app](https://codeellix.github.io/weather-app/)
 - [Calculator](https://codeellix.github.io/calculator/)
 - [Fake-resume](https://codeellix.github.io/resume/)
+
 ---
 
 ## Languages
