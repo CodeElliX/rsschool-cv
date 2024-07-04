@@ -1,3 +1,5 @@
+![photo_2024-07-04_18-26-53](https://github.com/CodeElliX/rsschool-cv/assets/126982594/20dab01d-ada2-40f5-a8e4-fc434088c5ed)
+
 # Olena Nikulina
 ### Junior Frontend Developer
 ---
